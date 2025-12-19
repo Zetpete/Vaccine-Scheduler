@@ -4,24 +4,6 @@ A simulation of registering for a COVID-19 vaccine appointment. It already inclu
 # Guide
 Once the user runs the program, these are all the possible options that can be done (assuming they are allowed to). I will run through what each option does.
 
-Welcome to the COVID-19 Vaccine Reservation Scheduling Application!
- *** Please enter one of the following commands ***
-> create_patient <username> <password>
-> create_caregiver <username> <password>
-> login_patient <username> <password>
-> login_caregiver <username> <password>
-> search_caregiver_schedule <date>
-> reserve <date> <vaccine>
-> upload_availability <date>
-> cancel <appointment_id>
-> show_all_available_dates
-> add_doses <vaccine> <number>
-> get_vaccine_information
-> show_appointments
-> logout
-> help (see this menu again)
-> quit
-
 - create_patient and create_caregiver allows the user to create a patient to receive the vaccine or a caregiver to adminster it.
 - login_patient and login_caregiver allows the user to login as an existing patient and caregiver.
 - search_caregiver_schedule allows a caregiver or patient to search for caregivers available on the given date as well as the number of doses of each vaccine left.
